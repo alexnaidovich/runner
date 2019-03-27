@@ -1,0 +1,15 @@
+{
+  "isDevDepsCached": true,
+  "devDepsCachePaths": [
+    {
+      "path": "c:\\_npmg\\",
+      "default": true
+    }
+  ],
+  "depsPredefined": [
+    [
+      "siema",
+      "materialize-css@latest"
+    ]
+  ]
+}
