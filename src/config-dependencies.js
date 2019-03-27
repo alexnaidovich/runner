@@ -52,10 +52,6 @@ async function main() {
   // Plan: 
   // 1. Define author by default
   let { author } = await defineAuthor();
-  if (author === 'input manually') {
-    author = await defineAuthorFromManualInput().author;
-    await storeToDefaults('defaultAuthors', author);
-  }
   examplePackageJson["author"] = author;
 
   // 2. Give name and description to the project
