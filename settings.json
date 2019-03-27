@@ -1,6 +1,15 @@
 {
   "defaultAuthors": [],
-  "examplePackageJson": {},
+  "examplePackageJson": {
+    "name": "",
+    "version": "1.0.0",
+    "description": "",
+    "author": "",
+    "scripts": {
+      "dev": "cross-env NODE_ENV=dev webpack-dev-server --progress --mode development --config webpack.config.dev.js",
+      "build": "webpack -p --progress --mode production --config webpack.config.build.js"
+    }
+  },
   "isDevDepsCached": true,
   "devDepsCachePaths": [
     "c:\\_npmg\\",
