@@ -1,12 +1,12 @@
 {
+  "defaultAuthors": [],
+  "examplePackageJson": {},
   "isDevDepsCached": true,
   "devDepsCachePaths": [
-    {
-      "path": "c:\\_npmg\\",
-      "default": true
-    }
+    "c:\\_npmg\\",
   ],
-  "depsPredefined": [
+  "devDepsKits": [],
+  "depsKits": [
     [
       "siema",
       "materialize-css@latest"
