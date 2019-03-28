@@ -1,2 +1,5 @@
 node_modules
 *.zip
+
+# temporary
+config/deps.config.json
