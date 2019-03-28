@@ -26,9 +26,6 @@ const {
   npmInstall
 } = helpers;
 
-// settings
-const SETTINGS = require('./settings.json');
-
 (async function main() {
 
   // show intro
