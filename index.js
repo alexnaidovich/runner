@@ -9,13 +9,16 @@ const path = require('path'); // <- throws errors
 
 // additions
 const { exec } = require('child_process');
+const dirname = __dirname;
+const dir_lib = path.resolve(dirname, 'lib');
+const dir_config = path.resolve(dirname, 'config');
 
 // parts
 const [
   helpers, intro, configDependencies
 ] = [
   'helpers', 'intro', 'config-dependencies'
-].map(component => require(`./src/${component}`));
+].map(component => require(path.join(dir_lib, component)));
 
 const { 
   rewriteSettings,
