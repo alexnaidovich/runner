@@ -35,17 +35,10 @@ const SETTINGS = require('./settings.json');
   intro();
 
   // configure dependencies
-  const { isDevDepsCached } = await configDependencies.main();
-
-  if (isDevDepsCached !== SETTINGS.isDevDepsCached) {
-    rewriteSettings(SETTINGS, 'isDevDepsCached', isDevDepsCached);
-    SETTINGS['isDevDepsCached'] = isDevDepsCached;
-  }
-
-  if (isDevDepsCached) {
-    // npmInit();
-    
-  }
+  const test = await configDependencies(dirname, dir_config);
+  console.log(
+    chalk.cyan(test)
+  );
 
   // configure webpack
   // configure ejs components
