@@ -5,7 +5,7 @@ const inquirer = require('inquirer');
 const chalk = require('chalk');
 const shell = require('shelljs');
 const fs = require('fs');
-const path = require('path'); // <- throws errors
+const path = require('path');
 
 // additions
 const { exec } = require('child_process');
@@ -13,7 +13,7 @@ const dirname = __dirname;
 const dir_lib = path.resolve(dirname, 'lib');
 const dir_config = path.resolve(dirname, 'config');
 
-// parts
+// components
 const [
   helpers, intro, configDependencies
 ] = [
