@@ -1,8 +1,5 @@
 {
-  "defaultAuthors": [
-    "Alex Naidovich",
-    "Test"
-  ],
+  "defaultAuthors": [],
   "examplePackageJson": {
     "name": "",
     "version": "1.0.0",
