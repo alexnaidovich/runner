@@ -18,9 +18,7 @@
   ],
   "devDepsKits": [],
   "depsKits": [
-    [
-      "siema",
-      "materialize-css@latest"
-    ]
+    "siema materialize-css@latest",
+    "jquery bulma scrollreveal"
   ]
 }
