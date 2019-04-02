@@ -29,7 +29,7 @@ const [
   // configure webpack
   const test2 = await configWebpack();
   console.log(
-    chalk.yellow(test2)
+    chalk.yellow(JSON.stringify(test2, null, 2))
   );
 
   // configure ejs components
