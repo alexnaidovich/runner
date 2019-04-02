@@ -1,0 +1,7 @@
+{
+  "siteLinks": [
+    "relative",
+    "absolute with 'www'",
+    "absolute without 'www'"
+  ]
+}

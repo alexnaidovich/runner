@@ -10,9 +10,9 @@ const dir_config = path.resolve(__dirname, 'config');
 
 // components
 const [
-  intro, configDependencies
+  intro, configDependencies, configWebpack
 ] = [
-  'intro', 'config-dependencies'
+  'intro', 'config-dependencies', 'config-webpack'
 ].map(component => require(path.join(dir_lib, component)));
 
 (async function main() {
@@ -27,6 +27,11 @@ const [
   );
 
   // configure webpack
+  const test2 = await configWebpack();
+  console.log(
+    chalk.yellow(test2)
+  );
+
   // configure ejs components
   // configure styles
   // write files
