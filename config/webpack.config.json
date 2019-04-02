@@ -3,5 +3,14 @@
     "relative",
     "absolute with 'www'",
     "absolute without 'www'"
+  ],
+  "pluginSets": [
+    "HTMLWebpackPlugin"
+  ],
+  "loaders": [
+    {
+      "name": "sass-loader",
+      "test": "/(.scss)/g"
+    }
   ]
 }
